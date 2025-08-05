@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riddhi Tiles Industries - Quality Paving Blocks & Fly Ash Bricks</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://placehold.co/32x32/1E40AF/FFFFFF?text=PS" type="image/x-icon">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white sticky top-0 z-50 shadow-md">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold text-gray-800 flex items-center">
+                <img src="images/bhagwaan.jpg" alt="PaveTech Logo" class="h-10 w-10 mr-2 rounded-md">
+                    <path d="M12 2L1 12h3v8h6v-6h4v6h6v-8h3L12 2zM12 4.7L19.3 11H17v8h-4v-6h-4v6H7v-8H4.7L12 4.7z"/>
+                </svg>
+                Riddhi Tiles Industries
+            </a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="text-gray-600 hover:text-blue-600 font-medium transition duration-300">About Us</a>
+                <a href="#products" class="text-gray-600 hover:text-blue-600 font-medium transition duration-300">Products</a>
+                <a href="#gallery" class="text-gray-600 hover:text-blue-600 font-medium transition duration-300">Gallery</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium transition duration-300">Contact Us</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+            <a href="#about" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 transition duration-300">About Us</a>
+            <a href="#products" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 transition duration-300">Products</a>
+            <a href="#gallery" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 transition duration-300">Gallery</a>
+            <a href="#contact" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 transition duration-300">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class=" text-white py-24 md:py-32" style="background-image: url('images/paving-blocks.jpg'); background-size: cover; background-position: center; background-blend-mode: overlay;">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight mb-4 animate-fade-in-down">
+                    Build Stronger, Build Smarter.
+                </h1>
+                <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8 animate-fade-in-up">
+                    We provide high-quality paving blocks and fly ash bricks for durable, sustainable, and beautiful construction projects.
+                </p>
+                <a href="#contact" class="bg-white text-blue-800 hover:bg-blue-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105 inline-block">
+                    Get a Free Quote
+                </a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">About Our Company</h2>
+                    <p class="text-gray-600 text-lg leading-relaxed">
+                        PaveTech Solutions is a leading manufacturer and supplier of superior quality construction materials. We specialize in eco-friendly fly ash bricks and a wide variety of durable paving blocks. Our commitment to innovation, quality, and customer satisfaction sets us apart in the industry.
+                    </p>
+                    <p class="text-gray-600 text-lg leading-relaxed">
+                        With state-of-the-art manufacturing processes and a dedicated team, we ensure every product meets the highest standards of strength and finish. We are proud to contribute to the creation of sustainable and long-lasting infrastructure.
+                    </p>
+                </div>
+                <div class="rounded-xl overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
+                    <img src="https://placehold.co/800x600/3B82F6/FFFFFF?text=Our+Factory" alt="Our state-of-the-art factory" class="w-full h-auto object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="py-16 md:py-24 bg-gray-100">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Products</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto mb-12">
+                    Explore our range of high-quality paving blocks and environmentally friendly fly ash bricks.
+                </p>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <!-- Product Card 1: Paving Blocks -->
+                    <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-2xl">
+                        <div class="w-full h-64 rounded-xl overflow-hidden mb-6">
+                            <img src="https://placehold.co/800x600/60A5FA/FFFFFF?text=Paving+Blocks" alt="Paving Blocks" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Paving Blocks</h3>
+                        <p class="text-gray-600 text-center mb-4">
+                            Available in various shapes, sizes, and colors, our paving blocks are designed for high durability and aesthetic appeal for driveways, pathways, and public spaces.
+                        </p>
+                        <ul class="text-left text-gray-500 space-y-2">
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                High Compressive Strength
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Weather Resistant
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Low Maintenance
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Product Card 2: Fly Ash Bricks -->
+                    <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-2xl">
+                        <div class="w-full h-64 rounded-xl overflow-hidden mb-6">
+                            <img src="https://placehold.co/800x600/4B5563/FFFFFF?text=Fly+Ash+Bricks" alt="Fly Ash Bricks" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Fly Ash Bricks</h3>
+                        <p class="text-gray-600 text-center mb-4">
+                            Our eco-friendly fly ash bricks are a sustainable and durable alternative to traditional clay bricks, offering superior strength and a smooth finish.
+                        </p>
+                        <ul class="text-left text-gray-500 space-y-2">
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Eco-friendly Material
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Lightweight & High Strength
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Uniform Shape and Size
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Gallery Section -->
+        <section id="gallery" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Projects in Pictures</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto mb-12">
+                    A showcase of our work, highlighting the beauty and durability of our products in real-world applications.
+                </p>
+
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div class="rounded-xl overflow-hidden shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                        <img src="https://placehold.co/600x400/8B5CF6/FFFFFF?text=Project+1" alt="Paving Blocks Project 1" class="w-full h-full object-cover">
+                    </div>
+                    <div class="rounded-xl overflow-hidden shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                        <img src="https://placehold.co/600x400/22C55E/FFFFFF?text=Project+2" alt="Fly Ash Bricks Project 2" class="w-full h-full object-cover">
+                    </div>
+                    <div class="rounded-xl overflow-hidden shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                        <img src="https://placehold.co/600x400/F59E0B/FFFFFF?text=Project+3" alt="Paving Blocks Project 3" class="w-full h-full object-cover">
+                    </div>
+                    <div class="rounded-xl overflow-hidden shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                        <img src="https://placehold.co/600x400/EF4444/FFFFFF?text=Project+4" alt="Fly Ash Bricks Project 4" class="w-full h-full object-cover">
+                    </div>
+                    <div class="rounded-xl overflow-hidden shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                        <img src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Project+5" alt="Paving Blocks Project 5" class="w-full h-full object-cover">
+                    </div>
+                    <div class="rounded-xl overflow-hidden shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                        <img src="https://placehold.co/600x400/6B7280/FFFFFF?text=Project+6" alt="Fly Ash Bricks Project 6" class="w-full h-full object-cover">
+                    </div>
+                    <div class="rounded-xl overflow-hidden shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                        <img src="https://placehold.co/600x400/10B981/FFFFFF?text=Project+7" alt="Paving Blocks Project 7" class="w-full h-full object-cover">
+                    </div>
+                    <div class="rounded-xl overflow-hidden shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                        <img src="https://placehold.co/600x400/F97316/FFFFFF?text=Project+8" alt="Fly Ash Bricks Project 8" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="py-16 md:py-24 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4 text-center">Contact Us</h2>
+                    <p class="text-gray-600 text-lg mb-8 text-center">
+                        Have a project in mind? Fill out the form below and we will get back to you shortly.
+                    </p>
+
+                    <!-- New Contact Details Section -->
+                    <div class="mb-8 text-center text-gray-700 space-y-2">
+                        <p class="text-lg">
+                            <strong class="text-blue-600">Email:</strong> tilesriddhi@gmail.com
+                        </p>
+                        <p class="text-lg">
+                            <strong class="text-blue-600">Mobile:</strong> +91 9993522571 (Whatsapp)
+                        </p>
+                        <p class="text-lg">
+                            <strong class="text-blue-600">Factory Address:</strong> 12A Industrial Area,Kishanpura, Narmadapuram, Madhya Pradesh, India - 461001
+                        </p>
+                        <p class="text-lg">
+                            <strong class="text-blue-600">GSTIN:</strong> 23BZKPS5041R1ZP
+                        </p>
+                    </div>
+                    <!-- End New Contact Details Section -->
+
+                    <!-- Updated form for Formspree integration -->
+                    <form id="contact-form" class="space-y-6" action="https://formspree.io/f/your-form-id" method="POST">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                            <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                            <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2" required>
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Your Message</label>
+                            <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="w-full md:w-auto bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 transition duration-300 transform hover:scale-105">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                    <!-- Message box for form submission feedback -->
+                    <div id="form-message" class="mt-6 p-4 rounded-md text-center hidden"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex flex-col md:flex-row justify-center items-center md:space-x-8 mb-6">
+                <p class="mb-4 md:mb-0">&copy; 2025 Riddhi Tiles Industries. All rights reserved.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-blue-600 transition duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 2C6.477 2 2 6.484 2 12.017c0 5.542 4.477 10.017 10 10.017s10-4.475 10-10.017C22 6.484 17.523 2 12 2zm6.604 4.195a.998.998 0 00-1.414 0c-1.397 1.398-3.088 2.097-4.805 2.097s-3.408-.699-4.805-2.097a.998.998 0 10-1.414 1.414c1.397 1.398 2.097 3.088 2.097 4.805s-.699 3.408-2.097 4.805a.998.998 0 101.414 1.414c1.398-1.397 3.088-2.097 4.805-2.097s3.408.699 4.805 2.097a.998.998 0 101.414-1.414c-1.397-1.398-2.097-3.088-2.097-4.805s.699-3.408 2.097-4.805a.998.998 0 000-1.414z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="hover:text-blue-600 transition duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M22 6c-2.6 1.15-5.3 1.9-8.4 2.1-2.9-1.9-5.3-3.6-7.1-4.7-2.6-1.6-4.5-.4-4.5.9 0 2.2 2.6 3.6 4.7 4.5-2.1-.2-4.1-.7-5.9-1.5-.7-.4-1.4-.7-2-.8-.8-.1-1.3.4-1.3 1.3 0 .7.3 1.4.9 2.2 2.2 2.7 5.7 4.6 9.5 5.5-2.1.6-4.1 1-6.1 1.1-1.8 0-3.3.4-4.5 1-1.3.6-1.5 1.5-.5 2.6 1.8 1.9 4.8 2.9 8.2 3.1 3.4.2 6.4-.3 8.7-1.4 2.3-1.1 3.5-2.5 3.5-4.2 0-.8-.3-1.6-.9-2.3.9-.1 1.7-.3 2.5-.6.8-.3 1.4-.7 1.8-1.1.8-.4 1.2-1 .9-1.8-.2-.8-.7-1.3-1.4-1.6-1.4-.7-2.9-.9-4.3-.6.6-.7 1-1.4 1-2.2z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="hover:text-blue-600 transition duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 2C6.477 2 2 6.484 2 12.017c0 5.093 3.657 9.38 8.417 9.873v-6.983h-2.538v-2.89h2.538V9.123c0-2.505 1.492-3.89 3.777-3.89 1.094 0 2.247.195 2.247.195v2.46h-1.26a1.43 1.43 0 00-1.54 1.583v1.751h2.791l-.444 2.89h-2.347V22c4.76-.493 8.417-4.78 8.417-9.873C22 6.484 17.523 2 12 2z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="script.js"></script>
+    
+</body>
+</html>
